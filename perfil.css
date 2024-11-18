@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend Exa';
+    background-color: pink;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 0.5fr 0.1fr 1fr 0.5fr;
+    grid-template-rows: 50px 30px 50px 30px 50px 30px 50px 30px 50px 30px;
+    margin-top: 50px;
+    background-color: pink;
+}
+
+#recebe_nome{
+    grid-column: 3/4;
+    grid-row: 1;
+}
+
+#recebe_email{
+    grid-column: 3/4;
+    grid-row: 3;
+}
+
+
+#recebe_cpf{
+    grid-column: 3/4;
+    grid-row: 5;
+}
+
+#recebe_telefone{
+    grid-column: 3/4;
+    grid-row: 7;
+}
+
+#recebe_senha{
+    grid-column: 3/4;
+    grid-row: 9;
+}
+
+
+main div{
+    width: 100%;
+}
+
+main input{
+    width: 100%;
+    height: 100%;
+}
+
+#nomelbl{
+    grid-column: 2/3;
+    grid-row: 1;
+}
+
+#emaillbl{
+    grid-column: 2/3;
+    grid-row: 3;
+}
+
+
+#cpflbl{
+    grid-column: 2/3;
+    grid-row: 5;
+}
+
+#telefonelbl{
+    grid-column: 2/3;
+    grid-row: 7;
+}
+
+#senhalbl{
+    grid-column: 2/3;
+    grid-row: 9;
+}
+
+main label{
+    margin-top: 10px;
+}
+
+main input{
+    background-color: white;
+}
+
+
